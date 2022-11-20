@@ -8,9 +8,9 @@ It is to encourage people to purchase the game through this website by sharing w
 This website will be aimed at people that want to know more about the game's features and designs before purchasing it as they want to be informed of what product they are purchasing.
 
 User stories:
--As a user type, I want to see how the game is played to know its features
+- As a user type, I want to see how the game is played to know its features
 
--As a user type, I want to know the desciptions and the details of each feature to learn more of the game features.
+- As a user type, I want to know the desciptions and the details of each feature to learn more of the game features.
 
 ## Features
 
@@ -22,9 +22,9 @@ Non yet
 
 ## Technologies Used
 Technologies used are:
--Html
--CSS
--javascript
+- Html
+- CSS
+- javascript
 
 ## Testing
 Non yet
