@@ -19,12 +19,17 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-
+body{
+    background-image:url("20-Battle_of_Abu_Klea_William_Barnes_Wollen.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
 
 .nav-bar {
     background-color: #9B111E;
     display:flex;
-    width:100%;
+    max-width:100%;
     padding:1%;
     flex-wrap:wrap;
     justify-content: flex-start;
