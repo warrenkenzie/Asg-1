@@ -20,8 +20,7 @@ time, mark, audio, video {
 }
 
 body{
-    background-image:url("20-Battle_of_Abu_Klea_William_Barnes_Wollen.jpg");
-    background-repeat: no-repeat;
+    background-image:url("Background.jpg");
     background-attachment: fixed; 
     background-size: 100% 100%;
 }
@@ -62,6 +61,6 @@ body{
     /*transform: translate(-50%,-50%);*/
     width: 418.3335px;
     height: 225.802px;
-    position: absolute;
+    
 }
 
