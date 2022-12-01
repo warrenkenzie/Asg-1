@@ -34,6 +34,7 @@ body{
     flex-wrap:wrap;
     justify-content: flex-start;
     position: fixed;
+    top:0cm;
 }
 
 .button{
@@ -56,11 +57,35 @@ body{
 .button1{
     margin-left:40px;
 }
-
+#home-page{
+    display: flex;
+    margin-top:65px;
+}
+.box-of-logos{
+    max-width:40%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 .victoria3_logo{
     /*transform: translate(-50%,-50%);*/
     width: 418.3335px;
     height: 225.802px;
-    
 }
-
+.paradox-interactive-logo{
+    height:300px;
+}
+.box-of-logos>h1{
+    font-size: 75px;
+    margin-top: 40px;
+}
+#video-div{
+    width: 60%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#video-div>iframe{
+    width:"420";
+    height:"315";
+}
