@@ -59,6 +59,7 @@ body{
 #home-page{
     display: flex;
     margin-top:65px;
+    justify-content: center;
 }
 .box-of-logos{
     max-width:40%;
@@ -85,8 +86,8 @@ body{
     justify-content: center;
 }
 #video-div>iframe{
-    width:"420";
-    height:"315";
+    width:450px;
+    height:315px;
 }
 
 footer{
