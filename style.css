@@ -55,3 +55,27 @@ body{
 .button1{
     margin-left:40px;
 }
+
+#blur-box{
+    width:80%;
+    height:400px;
+    margin-top:50px;
+    margin-left:10%;
+    background: inherit;
+    position: absolute;
+    overflow: hidden;
+}
+
+#blur-box:before{
+    height: 550px;
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    bottom: 0;
+    right: -25px;
+    background: inherit;
+    box-shadow: inset 0 0 0 1000px rgba(255,255,255,0.2);
+    filter: blur(10px);
+  }
+
