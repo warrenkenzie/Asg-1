@@ -56,3 +56,23 @@ body{
 .button1{
     margin-left:40px;
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.about-us-front-page{
+    display:flex;
+    padding:1%;
+    margin-top: 100px;
+    background-color: #522602;
+    height:600px;
+    width: 80%;
+}
+
+.left-box{
+    width: 50%;
+}
+.right-box{
+    width: 50%;
+}
