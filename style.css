@@ -193,3 +193,22 @@ footer{
     justify-content: center;
     margin-top: 60px;
 }
+
+.flex-container{
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.flex-container>.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-row>a{
+    text-decoration: none;
+    background-color: red;
+    width: 20%;
+    height:200px;
+}
+
