@@ -56,6 +56,32 @@ body{
 .button1{
     margin-left:40px;
 }
+
+#menu_button{
+    cursor: pointer;
+    border: solid white;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#sideNav{
+    width: 120px;
+    height: 100vh;
+    position: fixed;
+    right:0;
+    top:0;
+    background:#311721;
+    z-index: 2;
+}
+#sideNav>nav>ul>li{
+    list-style: none;
+    margin:50px 20px;
+}
+#sideNav>nav>ul>li>a{
+    text-decoration: none;
+    color:white;
+}
+
 #home-page{
     display: flex;
     margin-top:65px;
@@ -197,18 +223,22 @@ footer{
 .flex-container{
     margin-top: 65px;
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
 }
 .flex-container>.flex-row{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 60px;
 }
-.flex-row>a{
+.flex-container>.flex-row>a{
     text-decoration: none;
     background-color: red;
-    width: 20%;
-    height:200px;
+    width: 26%;
+    border: 2px solid red;
+    overflow: hidden;
 }
 
+.image-container>img{
+    width: 100%;
+}
