@@ -3,6 +3,7 @@
     <head>
         <title>Victoria 3</title>
         <link rel="stylesheet" type="text/css" href="./style.css" /> 
+        <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
     <body>
         <div class="nav-bar">
@@ -11,7 +12,7 @@
             <a href="dev-diaries.html" class="button">Dev Diaries</a>
             <a href="#" class="button">Gameplay</a>
             <a href="#" class="button">Subscribe</a>
-            <a href="#" class="button" style="margin-left:auto;margin-right: 20px;">Download Now</a>
+            <a href="#" class="button" style="margin-left:auto;margin-right: 100px;">Download Now</a>
         </div>
         <div id="sideNav">
             <nav>
@@ -31,6 +32,8 @@
             var menu_button = document.getElementById("menu_button")
             var sideNav = document.getElementById("sideNav")
             var menu = document.getElementById("menu")
+
+            sideNav.style.right = "-250px";
 
             menu_button.onclick = function(){
                 if(sideNav.style.right == "-250px"){
