@@ -5,12 +5,10 @@ It is to encourage people to purchase the game through this website by sharing w
 
 ## Design Process
 
-This website will be aimed at people that want to know more about the game's features and designs before purchasing it as they want to be informed of what product they are purchasing.
+This website will be aimed at people that want to know more about the game's features and designs before purchasing it as they want to be informed of what product they are purchasing, and give them access to the purchasing website if they are interested in buying it. Thus while designing the website. I included a home page where I can access other pages and also to introduce to the user what game is this page. Then I will have a page that gives a summary of the game and another page to give more details of the game's features. And after all this if the person is interested in buying it, he or she can go ahead and immediately click a button to go buy it.
 
 User stories:
 - As a user type, I want to see how the game is played to know its features
-
-- As a user type, I want to know the desciptions and the details of each feature to learn more of the game features.
 
 ## Features
 
@@ -22,6 +20,8 @@ User stories:
 - hovering over a box in Dev Diary Page causes a blurry red shadow to be formed. Click on it leads to a page on the actual game's forum.
 
 ### Features Left to Implement
+- Gameplay page
+-
 
 ## Technologies Used
 Technologies used are:
