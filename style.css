@@ -129,6 +129,11 @@ body{
     width:450px;
     height:315px;
 }
+@media (max-width:830px) {
+    .nav-bar>a{
+        display: none;
+    }
+}
 
 @media (max-width:770px){
     #home-page{
@@ -146,6 +151,7 @@ body{
         align-self: center;
     }
 }
+
 
 footer{
     height: 400px;
