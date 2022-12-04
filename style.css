@@ -254,15 +254,12 @@ footer{
 .flex-container{
     margin-top: 65px;
     display: flex;
-    flex-direction: column;
-}
-.flex-container>.flex-row{
-    display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 60px;
 }
-.flex-container>.flex-row>a{
+
+.flex-container>a{
+    margin-top: 65px;
     text-decoration: none;
     background-color: red;
     width: 26%;
