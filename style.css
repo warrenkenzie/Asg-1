@@ -270,3 +270,10 @@ footer{
 .image-container>img{
     width: 100%;
 }
+
+@media (max-width:720px) {
+    .flex-container>a{
+        width: 45%;
+        margin-top: 30px;
+    }
+}
