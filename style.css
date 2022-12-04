@@ -57,13 +57,6 @@ body{
     margin-left:40px;
 }
 
-#menu_button{
-    cursor: pointer;
-    border: solid white;
-    padding: 2px;
-    border-radius: 5px;
-}
-
 #sideNav{
     width: 120px;
     height: 100vh;
@@ -80,6 +73,22 @@ body{
 #sideNav>nav>ul>li>a{
     text-decoration: none;
     color:white;
+}
+
+#menu_button{
+    cursor: pointer;
+    border: solid white;
+    padding: 2px;
+    border-radius: 5px;
+    position: fixed;
+    z-index:3;
+    right: 20px;
+    top: 10px;
+    height: 38px;
+}
+
+#menu{
+    width: 38px;
 }
 
 #home-page{
