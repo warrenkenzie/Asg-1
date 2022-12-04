@@ -194,6 +194,9 @@ footer{
     display: flex;
     width:80%;
     height:400px;
+    justify-content: center;
+    align-items: center;
+    color:white;
 }
 
 .about-us-front-page>.left-box,.right-box{
@@ -257,6 +260,28 @@ footer{
     margin-top: 60px;
 }
 
+@media (max-width:720px){
+    .about-us-front-page{
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+    }
+    .right-box{
+        width:90%
+    }
+    .left-box{
+        width:90%
+    }
+    .introduction_container>div>.box{
+        flex-direction: column;
+    }
+    .introduction_container>div>.box>img{
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+}
+
 .flex-container{
     margin-top: 65px;
     display: flex;
@@ -267,10 +292,16 @@ footer{
 .flex-container>a{
     margin-top: 65px;
     text-decoration: none;
-    background-color: red;
+    background-color: black;
     width: 26%;
-    border: 2px solid red;
+    border: 2px solid black;
+    border-radius: 2px;
     overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.flex-container>a:hover{
+    box-shadow: 5px 5px 3px red;
 }
 
 .image-container>img{
@@ -283,3 +314,5 @@ footer{
         margin-top: 30px;
     }
 }
+
+
